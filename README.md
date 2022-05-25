@@ -1,4 +1,4 @@
-# gb-golang-level02
+# gb-js-basic
 GeekBrains Course Javascript Basic repository
 ## About me
 ptsypyshev (Цыпышев Павел)  
