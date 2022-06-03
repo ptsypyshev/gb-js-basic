@@ -28,7 +28,7 @@ const products = [
 ];
 
 let productsFilteredByPhotos = products.filter(function (product) {
-    return product.photos != null && product.photos.length > 0;
+    return product.photos !== undefined && product.photos.length > 0;
 });
 
 let productsSortedByPrice = products;
