@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 05 - Level 02. Task 03.01 Inline Styles</title>
+</head>
+<body>
+    <button>Кнопка</button>
+    <textarea></textarea>
+
+    <!-- Задание. Сделайте с помощью javascript размер шрифта в кнопке 30px,
+    а в textarea сделайте зеленый фон. Используйте свойство style у каждого
+    из элементов. -->
+
+    <script>
+        let buttonElement = document.querySelector("button");
+        buttonElement.style.setProperty("font-size", "30px");
+        let textareaElement = document.querySelector("textarea");
+        textareaElement.style.setProperty("background-color", "green");
+    </script>
+</body>
+</html>

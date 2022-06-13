@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 05 - Level 02. Task 02.01 Get properties of element</title>
+</head>
+<body>
+    <button id="one" class="btn">Кнопка 1</button>
+
+    <!-- 
+    Задание.
+    1. Получите кнопку и сохраните ее в переменную.
+    2. Назначьте кнопке обработку клика.
+    3. У функции-обработчика клика сделайте параметр event
+    4. При клике из event.target выведите в консоль: id, имя класса (используйте
+    свойство className), текст на кнопке.
+    -->
+
+    <script>
+        'use strict';
+        let oneButton = document.getElementById("one");
+        oneButton.addEventListener('click', function (event) {
+            let resultString = `id: ${event.target.id}, class: ${event.target.className}, innerText: ${event.target.innerText}`;
+            console.log(resultString);
+        })
+    </script>
+</body>
+</html>
