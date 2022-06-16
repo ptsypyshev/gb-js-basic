@@ -39,7 +39,7 @@
             stars[elem] = document.getElementById(elem);
         }
 
-        for (const [key, value] of Object.entries(stars)) {
+        for (const value of Object.values(stars)) {
             value.addEventListener('mouseover', function(event) {
                 console.dir(event);
                 let step = event.target;

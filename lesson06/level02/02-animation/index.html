@@ -26,7 +26,7 @@
         'use strict';
         let btn = document.querySelector("button");
         let msg = document.querySelector(".message");
-        btn.addEventListener("click", function (event) {
+        btn.addEventListener("click", function () {
             msg.classList.add("animate__animated", "animate__fadeInLeftBig");   // Думаю логически правильнее сначала стили добавить, а потом блок показывать. Хотя в браузере разницы не заметил.
             msg.style.display = "block";
         })
